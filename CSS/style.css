@@ -1,0 +1,221 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0% 0%;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/*MENU*/
+.menu{
+    color: #fff;
+    background: linear-gradient(45deg, #03001C, #03001C, #041C32, #6B728E);
+    width: 100%; /*LARGURA*/
+    height: 110px; /*ALTURA*/
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;  /*OCUPAR TODO O ESPAÇO DO MEU OBJETO MAS Q FIQUE IGUALMENTE DISTRIBUIDO*/
+    align-items: center; /*ALINHAR ITENS AO CENTRO DO OBJETO*/
+    padding: 15px 80px;
+    position: fixed;
+    top: 0;
+}
+nav, li{
+    list-style: none; /*REMOVER O SINAL DE TÓPICO DA LISTA*/
+}
+header nav, ul{
+    display: flex; /*ALINHAR ITENS NA VERTICAL*/
+}
+nav li a{
+    color: #fff;
+    text-decoration: none; /*TIRA SUBLINHADO DO LINK*/
+}
+nav li a:hover{
+    color: blue;
+}
+nav li{
+    margin: 0 20px;
+}
+
+/*BOX-BANNER*/
+.parallax{
+    height: 750px;
+    background-image: url(../img/4K\ Wallpaper\ For\ Pc\ Avengers\ Infinity\ War\ Gallery.jpg); /*AADICIONAR IMAGEM*/
+    background-position: center top;/*CENTRALIZA A IMAGEM AO CENTRO*/
+    background-repeat: no-repeat;/*IMPEDE DE REPETIR A IMAGEM*/
+    background-attachment: fixed; /*DEIXA A IMAGEM FIXA COM EFEITO PARALAX SIMPLES*/
+    background-size: cover;/*OCUPA TODA A ÁREA DA TAG DE SEÇÃO*/
+    margin-top: 104px;
+}
+.box{
+    padding-top: 180px; /*ESPAÇAMENTO INTERNO NA ÁREA DO TOPO DO OBJETO*/
+    text-align: center; /*ALINHAR TEXTOS EM COLUNA*/
+}
+.box h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+.btn{
+    color: black;
+    background: #fff;
+    padding: 20px 40px;
+    font-size: 18px; /*TAMANHO DA FONTE*/
+    text-decoration: none;
+    border-radius: 15px; /*ARREDONDAR AS PONTAS NO OBJETO*/
+}
+.btn:hover{
+    background: blue;
+    color: #fff;
+}
+/*FILMES*/
+
+.filmes{
+    color: #fff;
+    background: linear-gradient(45deg, #03001C, #03001C, #041C32, #6B728E);
+    height: 1630px;
+    
+}
+.filmes h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 120px;
+    font-weight: 700; /*PESO DA FONTE*/
+}
+.conteiner{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.filmes p{
+    color: #fff;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.item{
+    align-items: center;
+    background: #fff;
+    box-shadow: 2px 2px 2px 2px;
+    flex-grow: 0;
+    border-radius: 12px;
+}
+article, img{
+    border-radius: 8px;
+}
+/*SERVIÇOS*/
+.servicos{
+    height: 750px;
+    background-image: url(../img/4K\ Wallpaper\ For\ Pc\ Avengers\ Infinity\ War\ Gallery.jpg); 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+div.colunas{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.servicos article{
+    background: #ffffff85;
+    color: black;
+    margin: 30px 8px;
+    padding: 80px 13px;
+    text-align: center;
+}
+.servicos h3{
+    margin-bottom: 18px;
+}
+.servicos p{
+    margin-bottom: 50px;
+}
+.servicos a{
+    color: #fff;
+    background: blue;
+    padding: 10px 30px;
+    font-size: 15px; 
+    text-decoration: none;
+    border-radius: 9px; 
+}
+/*RODAPÉ*/
+footer{
+    background: #03001C;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+
+}
+#btnTop{
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+    background: #03001C;
+    display: none;
+    border: none;
+}
+#btnTop img{
+    width: 50px;
+}
+/*BREAKPOINT*/
+@media (max-width: 700px){
+    .menu{
+        flex-direction: column;
+        height: 180px;
+    }
+    .subTitulo{
+        padding-bottom: 10px;
+    }
+    nav li{
+        margin: 0 40px;
+    }
+    .parallax{
+        height: 500px;
+        
+    }
+    .box{
+        padding-top: 150px;
+    }
+    .box h1{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .btn{
+        padding: 10px 30px;
+        font-size: 18px;   
+    }
+    .filmes h1{
+        font-size: 30px;
+        padding: 100px;
+    }
+    .filmes{
+        height: 900px;
+    }
+    .conteiner{
+        flex-direction: row;
+        margin-bottom: 80px;
+    }
+    .item{
+        width: 300px;
+        background: none;
+        padding: 0;
+        box-shadow: 0 0;
+        
+    }
+    article, img{
+        width: 90%; 
+    }
+    div.colunas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .servicos{
+        height: 1400px;
+    }
+}

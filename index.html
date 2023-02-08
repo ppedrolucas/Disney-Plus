@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney plus</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/1e32b8079d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="img/Disney-Plus-Logo-Whhite-PNG@zeevector.png" width="150px">
+        
+            <nav>
+                <ul>
+                    <li><a class="scroll" href="#home"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a class="scroll" href="#filmes"><i class="fa-solid fa-star"></i></a></li>
+                    <li><a class="scroll" href="#services"><i class="fa-solid fa-ticket"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="parallax">
+            <div class="box">
+                <h1 id="home">Junte-se a nós</h1>
+                <a href="login.php" class="btn">Entrar</a>
+            </div>
+           
+    </section>
+    <section class="filmes">
+            <h1 id="filmes">Destaques no Disney+</h1>
+            <p>Mais assistidos</p>
+            <div class="conteiner">
+                <article class="item"><img src="img/Watch or Download Captain America Civil War Full Hindi Movie In HD.jpg" width="200px"></article>
+                <article class="item"><img src="img/Veja o Pôster da Série LOKI.png" width="200px"></article>
+                <article class="item"><img src="img/Spider-Man Homecoming Picture - Image Abyss.jpg" width="200px"></article>
+                <article class="item"><img src="img/Iron Man (2008).jpg" width="200px"></article>
+                <article class="item"><img src="img/WandaVision (2020).jpg" width="200px"></article>
+            </div>
+            <p>Ação e Aventura</p>
+            <div class="conteiner acao">
+                <article class="item"><img src="img/Veja o Pôster da Série LOKI.png" width="200px"></article>
+                <article class="item"><img src="img/jpg(1)" width="200px"></article>
+                <article class="item"><img src="img/Watch or Download Captain America Civil War Full Hindi Movie In HD.jpg" width="200px"></article>
+                <article class="item"><img src="img/A DAY IN HOLLYWOOD HISTORY - Oct 10, 2017 Thor Ragnarok directed by Taika Waititi, starring Chris Hemsworth, Tom Hiddleston and Cate Blanchett premiered in Los Angeles, California_.jpg" width="200px"></article>
+                <article class="item"><img src="img/Iron Man (2008).jpg" width="200px"></article>
+            </div>
+            <p>Novidades no Disney+</p>
+            <div class="conteiner novidades">
+                <article class="item"><img src="img/WandaVision (2020).jpg" width="200px"></article>
+                <article class="item"><img src="img/jpg(1)" width="200px"></article>
+                <article class="item"><img src="img/blackpanther.jpg" width="200px"></article>
+                <article class="item"><img src="img/jpg" width="200px"></article>
+                <article class="item"><img src="img/A DAY IN HOLLYWOOD HISTORY - Oct 10, 2017 Thor Ragnarok directed by Taika Waititi, starring Chris Hemsworth, Tom Hiddleston and Cate Blanchett premiered in Los Angeles, California_.jpg" width="200px"></article>
+            </div>
+    </section>
+    <section class="servicos">
+        <div class="box">
+            <h1 id="services">Nossos Serviços</h1>
+        </div>
+            <div class="colunas">
+                <article class="item">
+                    <h3>Serviço</h3>
+                    
+                    <p>Lorem ipsum dolor sit, voluptates dolore odit facere ipsa ipsum dolorum expedita, soluta voluptatibus.</p>
+                    <a href="#">Ler mais</a>
+                </article>
+                <article class="item">
+                    <h3>Serviço</h3>
+                  
+                    <p>Lorem ipsum dolor sit, voluptates dolore odit facere ipsa ipsum dolorum expedita, soluta voluptatibus.</p>
+                    <a href="#">Ler mais</a>
+                </article>
+                <article class="item">
+                    <h3>Serviço</h3>
+                   
+                    <p>Lorem ipsum dolor sit, voluptates dolore odit facere ipsa ipsum dolorum expedita, soluta voluptatibus.</p>
+                    <a href="#">Ler mais</a>
+                </article>
+            </div>
+    </section>
+    <footer>
+        <p>© Todos os direitos reservados a PIKAW</p>
+    </footer>
+    <button onclick="backToTop();" id = "btnTop"><img src="img/path26.svg" alt=""></button>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script>
+        jQuery(document).ready(function($){
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},800);
+            });
+        });
+    </script>
+    <script>
+        window.onscroll = function(){
+            scroll();
+        }
+        function scroll(){
+            var btn = document.getElementById("btnTop"); {
+                if(document.documentElement.scrollTop > 200){
+                    btn.style.display = "block";
+                }else{
+                    btn.style.display = "none";
+                }
+            }
+        }
+        function backToTop(){
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>
