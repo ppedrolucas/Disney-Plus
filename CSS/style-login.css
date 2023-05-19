@@ -22,7 +22,9 @@
     padding: 50px;
     border-radius: 8px;
 }
-
+.formCad{
+    width: 333px;
+}
 h2{
     text-align: center;
     margin-bottom: 12px;
@@ -36,10 +38,11 @@ input{
     padding: 15px;
     border: none;
     border-radius: 10px;
+    outline: block;
 }
 button{
     border: none;
-    background: blue;
+    background:  #0d2dfd;
     border-radius: 10px;
     padding: 15px;
     color: #fff;
@@ -49,13 +52,14 @@ button{
 }
 button:hover{
     transform: scale(1.2);
+    transition: all .2s ease-out;
 }
 a{
     text-decoration: none;
-    color: blue;
+    color:  #0d2dfd;
 }
 a:hover{
-    color: #6C00FF;
+    color: blue;
 }
 @media (max-width: 700px){
     

@@ -12,9 +12,9 @@
     <script src="https://kit.fontawesome.com/1e32b8079d.js" crossorigin="anonymous"></script>
 </head>
 <body class="banner">
-    <section>
+    
         <div class="container">
-    <div class="formLog">
+    <div class="formCad formLog">
         <h2 class="title">Cadastre-se</h2>
         <form action="" method="post" enctype="multipart/form-data">
             <div class="camp">
@@ -71,7 +71,7 @@
         ?>
     </div>
 </div>
-    </section>
+    
     
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/jQuery-Mask/jQuery-Mask-Plugin-master/dist/jquery.mask.min.js"></script>
