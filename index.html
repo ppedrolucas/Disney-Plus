@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Disney Plus</title>
   </head>
-  <body>
+  <body data-bs-theme="dark">
     <!--Navigation-->
     <nav class="navbar navbar-dark bg-disney fixed-top">
       <div class="container">
@@ -75,6 +75,60 @@
       </div>
     </nav>
     <!--Section Banner-->
+    <section class="banner d-flex align-items-center">
+      <div class="container text-light text-center">
+        <h1>Junte-se a nós</h1>
+        <p>Venha fazer parte da nossa comunidade.</p>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary btn-lg px-4"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+        >
+          Entrar
+        </button>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Aviso</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                Ao fazer parte de nossa comunidade você estará submisso a
+                concordar com nossos termos e condições,logo, você deve estar
+                totalmente ciente que teremos acesso a informações pessoais.
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-dismiss="modal"
+                >
+                  Entendido
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Sectio Destaques-->
     <script src="bootstrap/js/popper.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>

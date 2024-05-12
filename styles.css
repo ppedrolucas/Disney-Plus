@@ -1,3 +1,12 @@
 .bg-disney {
   background-color: #0f172a;
 }
+.banner {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(assets/banner.jpg); /*AADICIONAR IMAGEM*/
+  background-position: center top; /*CENTRALIZA A IMAGEM AO CENTRO*/
+  background-repeat: no-repeat; /*IMPEDE DE REPETIR A IMAGEM*/
+  background-attachment: fixed; /*DEIXA A IMAGEM FIXA COM EFEITO PARALAX SIMPLES*/
+  background-size: cover; /*OCUPA TODA A ÁREA DA TAG DE SEÇÃO*/
+}
