@@ -10,3 +10,8 @@
   background-attachment: fixed; /*DEIXA A IMAGEM FIXA COM EFEITO PARALAX SIMPLES*/
   background-size: cover; /*OCUPA TODA A ÁREA DA TAG DE SEÇÃO*/
 }
+@media (max-width: 565px) {
+  .awp {
+    padding: 0 12px;
+  }
+}
