@@ -1,4 +1,3 @@
-
 ![GitHub language count](https://img.shields.io/github/languages/count/ppedrolucas/Disney-Plus)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/ppedrolucas/Disney-Plus)
 ![GitHub top language](https://img.shields.io/github/languages/top/ppedrolucas/Disney-Plus)
