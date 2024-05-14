@@ -15,11 +15,11 @@ Neste repositório está hospedado uma landing page responsiva inspirada no Disn
 
 ## 🚧 Status
 
-Atualmente o projeto está em sua fase final de construção, faltando apenas a introdução de um algoritmo de cadastramento e login, utilizando a linguagem PHP e validação de formulário por meio da jQuery.
+Atualmente todo o Layout do projeto está finalizado e se encaminhando para sua fase final de construção, faltando apenas a introdução de um algoritmo de cadastramento e login com a linguagem PHP e uma validação de formulário por meio da jQuery.
 
 ## 🍪 Acesso ao Projeto
 
-Este projeto pode ser visualizado através serviço de hospedagem [Vercel](https://www.vercel.com).
+Este projeto pode ser visualizado através serviço de hospedagem [Vercel](https://www.vercel.com), por meio deste [link](https://disney-plus-current.vercel.app/).
 
 ## 🚀 Tecnologias
 
