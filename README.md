@@ -15,11 +15,11 @@ Neste repositório está hospedado uma landing page responsiva inspirada no Disn
 
 ## 🚧 Status
 
-Atualmente o projeto está em sua fase final de construção, faltando apenas ajustes de mínimos detalhes e introdução de um algoritmo de cadastramento e login, utilizando a linguagem PHP e validação de formulário.
+Atualmente o projeto está em sua fase final de construção, faltando apenas a introdução de um algoritmo de cadastramento e login, utilizando a linguagem PHP e validação de formulário por meio da jQuery.
 
 ## 🍪 Acesso ao Projeto
 
-Este projeto pode ser visualizado  através serviço de hospedagem [Vercel](https://www.vercel.com).
+Este projeto pode ser visualizado através serviço de hospedagem [Vercel](https://www.vercel.com).
 
 ## 🚀 Tecnologias
 
@@ -35,4 +35,4 @@ As seguintes ferramentas foram usadas para o desenvolvimento do projeto:
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Pedro Lucas 👋🏽 
+Feito com ❤️ por Pedro Lucas 👋🏽
